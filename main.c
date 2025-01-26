@@ -11,7 +11,7 @@ int main(int argc,char *argv[])
 
     if(argc == 1)
     {
-         printf("./a.out : Encoding: ./a.out -e <.bmp.file> <.txt.file> [output file]\n");
+         printf("./a.out : changed Encoding: ./a.out -e <.bmp.file> <.txt.file> [output file]\n");
          printf("./a.out : Decoding: ./a.out -d <.bmp.file> [output file]\n");
          return 0;
 
