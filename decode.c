@@ -108,7 +108,7 @@ Status Skip_bmp_header(FILE *fptr_bmp_image)
 }
 Status decode_magic_string(FILE *fptr_bmp_image,FILE *fptr_secret_image,DecodeInfo *decInfo)
 {
-    printf("INFO : Decoding Magic String Signeture \n");
+    printf("INFO : check The Decoding Magic String Signeture \n");
     char magic_string[3],buffer[8];
     int i;
     for(i=0; i<2; i++)
